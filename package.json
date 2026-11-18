@@ -1,0 +1,32 @@
+{
+  "name": "b3-tp-git-03-incident",
+  "version": "1.0.0",
+  "description": "Petit module JavaScript permettant de calculer le cout d'une intervention technique.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "build": "node --check src/calcul.js && node --check src/affichage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasdeb961/B3-TP-Git-03-incident.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thomasdeb961/B3-TP-Git-03-incident/issues"
+  },
+  "homepage": "https://github.com/thomasdeb961/B3-TP-Git-03-incident#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
